@@ -3,64 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <style>
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: #f5ebdc;
-            padding-top: 40px;
-            box-sizing: border-box;
-            position: relative;
-            font-family: 'Yuyu', 'Yuyu Latin', Georgia, serif;
-        }
-
-        h1 {
-            margin: 0;
-            text-align: center;
-            position: absolute;
-            top: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        nav {
-            position: absolute;
-            top: 30px;
-            right: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            align-items: center;
-            text-align: center;
-        }
-
-        nav a {
-            color: #333;
-            text-decoration: none;
-            transition: color 0.2s ease, background-color 0.2s ease;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-
-        nav a:hover {
-            color: #fff;
-            background-color: #8b6f47;
-        }
-    </style>
+    <title>Mikk Egert Maide</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Mikk Egert Maide</h1>
-    <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
-</nav>
+    <header>
+        <h1>MIKK EGERT MAIDE</h1>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="resume.html">RESUME</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
 
+    <main>
+        <section class="block">
+            <h2>WELCOME</h2>
+            <p>This is my personal site. No frills, just content.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MIKK EGERT MAIDE</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
