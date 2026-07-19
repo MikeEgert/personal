@@ -6,21 +6,44 @@
     <title>About — Mikk Egert Maide</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
+        <button id="lang-toggle">EST</button>
         <h1>MIKK EGERT MAIDE</h1>
         <nav>
-            <a href="index.html">HOME</a>
-            <a href="about.html">ABOUT</a>
-            <a href="resume.html">RESUME</a>
-            <a href="contact.html">CONTACT</a>
+            <a href="index.html" data-en="HOME" data-et="AVALEHT">HOME</a>
+            <a href="about.html" data-en="ABOUT" data-et="MINUST">ABOUT</a>
+            <a href="resume.html" data-en="RESUME" data-et="CV">RESUME</a>
+            <a href="contact.html" data-en="CONTACT" data-et="KONTAKT">CONTACT</a>
         </nav>
     </header>
 
     <main>
         <section class="block">
-            <h2>ABOUT ME</h2>
-            <p>Write a short bio here — where you're from, what you're currently learning or working on, and what interests you.</p>
+            <h2 data-en="ABOUT ME" data-et="MINUST">ABOUT ME</h2>
+            <p data-en="This is Mikk, born and raised in a small country called Estonia. I am a passionate person with a strong interest in web development and design. Currently, I am focused on improving my skills in these areas and exploring new possibilities that life has to offer."
+               data-et="See on Mikk, kes on sündinud ja üles kasvanud väikeses riigis nimega Eesti. Olen kirglik inimene, kellel on tugev huvi veebiarenduse ja disaini vastu. Praegu keskendun nendes valdkondades oma oskuste parandamisele ja uute võimaluste avastamisele, mida elu pakub.">
+                This is Mikk, born and raised in a small country called Estonia. I am a passionate person with a strong interest in web development and design. Currently, I am focused on improving my skills in these areas and exploring new possibilities that life has to offer.
+            </p>
+
+            <h2 data-en="HOBBIES" data-et="HOBID">HOBBIES</h2>
+            <ul>
+                <li>
+                    <strong data-en="I started coding in 2022" data-et="Alustasin programmeerimisega 2022. aastal">I started coding in 2022</strong><span data-en=" while studying in high school to explore my interest in technology." data-et=" keskkoolis õppides, et avastada oma huvi tehnoloogia vastu."> while studying in high school to explore my interest in technology.</span>
+                </li>
+                <li>
+                    <strong data-en="Playing table tennis" data-et="Lauatennise mängimine">Playing table tennis</strong><span data-en=". Sports have allowed me to stay fit and mentally strong." data-et=". Sport on aidanud mul püsida vormis ja vaimselt tugevana.">. Sports have allowed me to stay fit and mentally strong.</span>
+                </li>
+                <li>
+                    <strong data-en="Reading books" data-et="Raamatute lugemine">Reading books</strong><span data-en=". I enjoy reading about the world, technology and personal development to gain new perspectives on knowledge and life in general." data-et=". Naudin lugemist maailmast, tehnoloogiast ja enesearengust, et saada uusi vaateid teadmistele ja elule üldiselt."> . I enjoy reading about the world, technology and personal development to gain new perspectives on knowledge and life in general.</span>
+                </li>
+            </ul>
+
+            <h2 data-en="ACHIEVEMENTS" data-et="SAAVUTUSED">ACHIEVEMENTS</h2>
+            <ul>
+                <li data-en="2023 — Placed 5th in inter-school table tennis competitions" data-et="2023 — Saavutasin 5. koha koolidevahelistel lauatenniseturniiridel">2023 — Placed 5th in inter-school table tennis competitions</li>
+            </ul>
         </section>
     </main>
 
